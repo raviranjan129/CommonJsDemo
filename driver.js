@@ -12,7 +12,7 @@ async function readSampleFile() {
 
 async function writesampleFile() {
     
-    await fs.writeFile('./sample.txt','Hello world1')
+    await fs.writeFile('./sample.txt1','Hello world1')
 }
 
 async function appendSampleFile() {
@@ -21,6 +21,6 @@ async function appendSampleFile() {
 
 appendSampleFile()
 
-// writesampleFile()
+writesampleFile()
 
 // readSampleFile()
